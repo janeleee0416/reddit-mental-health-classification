@@ -84,7 +84,19 @@ P(Xj=xj | Y=y) = (C(Xj=xj, Y=y) + α - 1) / (C(Y=y) + α + β - 2)
 - 언더샘플링으로 위험군 데이터 대부분 미사용
 - 단어 간 순서/문맥 정보 미반영 (Bag of Words의 한계)
 - False Negative(위험군을 비위험군으로 분류)가 실제 적용 시 더 위험할 수 있음
+## 시각화
 
+### 클래스 분포
+![class dist](class_dist.png)
+
+### Top 20 위험 단어
+![top words](top_words.png)
+
+### 워드클라우드
+![wordcloud](danger_words.png)
+
+### Confusion Matrix
+![confusion matrix](confusion_matrix.png)
 ---
 
 ## 사용 기술
