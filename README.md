@@ -49,7 +49,7 @@ P(Xj=xj | Y=y) = (C(Xj=xj, Y=y) + α - 1) / (C(Y=y) + α + β - 2)
 | 직접 구현 Naïve Bayes | **83.66%** |
 | sklearn BernoulliNB | **83.66%** |
 
-직접 구현 결과가 sklearn과 완전히 일치 → 원리 기반 구현 검증 완료
+직접 구현 결과가 sklearn과 일치
 
 ### 위험군에서 많이 나오는 단어 Top 20
 | 단어 | 확률 차이 |
